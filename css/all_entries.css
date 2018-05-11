@@ -1,0 +1,53 @@
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    border: solid 1px white;
+}
+
+tr {
+    display: flex;
+}
+
+tr th,
+tr td {
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+tr td:nth-of-type(1),
+tr th:nth-of-type(1) {
+    max-width: 90px;
+}
+
+tr td:nth-last-of-type(1),
+tr th:nth-last-of-type(1) {
+    max-width: 60px;
+}
+
+tbody tr:nth-child(odd) {
+    background: rgba(103, 252, 213, 1);
+    padding: 5px 0px;
+    margin: 1px 0px;
+}
+
+tbody tr:nth-child(even) {
+    padding: 5px 0px;
+    background: rgba(135, 132, 132, 0.10);
+}
+
+tbody tr td {
+    font-size: 80%;
+}
+
+td img {
+    cursor: pointer;
+
+}

@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    color: rgba(161, 25, 240, 1.00);
+    /*	background: linear-gradient(45deg,rgba(161,25,240,1.00),rgba(212,91,208,1.00) );*/
+    background: url(../images/background_gradient.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero {
+    margin: auto;
+    /*	font-family: Roboto;*/
+    /*    font-family: Montserrat;*/
+    font-family: 'Passion One', sans-serif, cursive;
+    color: white;
+    padding: 50px 55px;
+    background: rgba(200, 200, 200, 0.2);
+    color: #fff;
+    font-size: 40px;
+    /*	font-weight: bold;*/
+    letter-spacing: 5px;
+}
+
+.header {
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background: rgba(200, 200, 200, 0.2);
+    padding-bottom: 40px;
+    text-align: right;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(98, 95, 95, 1.00);
+}
+
+.header ul {
+    display: inline-block;
+}
+
+.header ul li {
+    display: inline;
+    padding: 5px 20px;
+}
+
+.menu {
+    margin: auto;
+    margin-right: 40px;
+    font-family: Open Sans, sans-serif;
+}
+
+.hero_container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+.mmmut_logo {
+    height: 75px;
+    width: 75px;
+    margin: 15px 0px 0px 20px;
+    background: url('../images/mmmut_logo.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.inlist {
+    margin: auto;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    background: rgba(255, 255, 255, 1.00);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px rgba(30, 45, 61, 0.15);
+    width: 400px;
+    padding: 40px 50px;
+    /*    border-top: solid 3px chartreuse;s*/
+    /*    color: chartreuse;*/
+}
+
+.inlist ul {
+    padding: 0;
+}
+
+.inlist li {
+    border-bottom: solid 3px rgba(120, 119, 119, 0.07);
+    padding: 10px;
+    color: rgba(98, 95, 95, 1.00);
+    font-weight: bolder;
+    list-style: none;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.inlist li:nth-of-type(4) {
+    border-bottom: none;
+}
+
+.desc {
+    width: 1000px;
+    margin: auto;
+    background: white;
+    box-shadow: 3px 3px 15px 5px rgba(30, 45, 61, 0.1);
+    border-radius: 4px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 40px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.desc h1 {
+    font-family: Roboto, sans-serif;
+    color: rgba(126, 82, 119, 1.00);
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+.name {
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    /*    font-family: Roboto;*/
+    font-size: 120%;
+    font-weight: bold;
+}
+
+
+
+hr {
+    border: none;
+    height: 0.5px;
+    background: rgba(20, 20, 20, 0.2);
+}

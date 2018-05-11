@@ -1,0 +1,34 @@
+/* CSS Document */
+
+.st_det_main p {
+    display: block;
+    padding: 5px 10px;
+    font-family: Roboto, sans-serif;
+}
+
+.st_det_main input {
+
+    border: solid 1px rgba(50, 50, 50, 0.3);
+    height: 30px;
+    width: 250px;
+    border-radius: 3px;
+    text-indent: 5px;
+}
+
+.st_det_main input[type='checkbox'] {
+    height: 30px;
+    width: 100px;
+}
+
+.st_det_main .required::after {
+    content: "	*";
+    color: indianred;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+}
+
+.st_det_main {
+    padding-left: 30px;
+}
